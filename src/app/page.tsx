@@ -33,6 +33,11 @@ export default function Home() {
     <main className="min-h-screen">
       {/* HERO */}
       <section className="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center">
+        <div className="profile-wrap">
+          <div className="profile-ring"></div>
+          <div className="profile-ring2"></div>
+          <img src="/profile.jpg" alt="Raju Mahato - Nepal's Best and Top Individual Website Developer" className="profile-photo" />
+        </div>
         <p className="mono text-xs tracking-widest uppercase text-crimson mb-6">
           Solo-built. Production-deployed.
         </p>

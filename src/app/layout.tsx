@@ -67,6 +67,7 @@ const personSchema = {
     "Rautahat Top Web Developer",
   ],
   url: "https://nepalwebsitedeveloper.com",
+  image: "https://nepalwebsitedeveloper.com/profile.jpg",
   description:
     "Raju Mahato is a solo Nepali developer building production websites and apps with Next.js, Flutter, and Firebase - 15+ live projects including political leader portfolios, school websites, cooperative platforms, and AI-powered apps.",
   nationality: "Nepali",
@@ -101,4 +102,51 @@ export default function RootLayout({
       </body>
     </html>
   );
+}
+/* Profile photo with pulse-ring animation */
+.profile-wrap {
+  position: relative;
+  width: 132px;
+  height: 132px;
+  margin: 0 auto 1.5rem;
+}
+
+.profile-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid var(--crimson);
+  animation: profilePulse 2.4s ease-out infinite;
+}
+
+.profile-ring2 {
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 2px solid var(--marigold);
+  animation: profilePulse 2.4s ease-out infinite;
+  animation-delay: 1.2s;
+}
+
+.profile-photo {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--paper);
+  box-shadow: 0 8px 24px rgba(27,27,24,0.18);
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes profilePulse {
+  0% { transform: scale(1); opacity: 0.8; }
+  100% { transform: scale(1.35); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .profile-ring, .profile-ring2 {
+    animation: none;
+    opacity: 0;
+  }
 }
