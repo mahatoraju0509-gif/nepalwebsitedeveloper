@@ -90,7 +90,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={${fraunces.variable} ${inter.variable} ${mono.variable}}
+      className={fraunces.variable + " " + inter.variable + " " + mono.variable}
     >
       <body>
         <script
