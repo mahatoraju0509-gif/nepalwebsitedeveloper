@@ -1,0 +1,167 @@
+const liveProjects = [
+  { name: "madhavnepal.online", url: "https://madhavnepal.online", desc: "Official portfolio - Former PM Madhav Kumar Nepal" },
+  { name: "bharatshah.online", url: "https://bharatshah.online", desc: "Official portfolio - Bharat Prasad Shah, Madhesh Pradesh" },
+  { name: "BirgunjCity.com", url: "https://birgunjcity.vercel.app", desc: "City news portal - Next.js + Firebase" },
+  { name: "edupath-ai.vercel.app", url: "https://edupath-ai.vercel.app", desc: "AI-powered career counseling app - 1.7M+ words, 20 countries" },
+  { name: "thagi-satark.vercel.app", url: "https://thagi-satark.vercel.app", desc: "Fraud-awareness Flutter app - 30 fraud categories" },
+  { name: "jagdamba-school-five.vercel.app", url: "https://jagdamba-school-five.vercel.app", desc: "School website - Three.js, Firebase admin panel" },
+  { name: "sfacl-jetharahiya.vercel.app", url: "https://sfacl-jetharahiya.vercel.app", desc: "Cooperative platform - loan & savings services" },
+  { name: "rajumahato.it.com", url: "https://rajumahato.it.com", desc: "Personal developer portfolio" },
+];
+
+const services = [
+  {
+    title: "Website Development",
+    detail: "Custom-coded with Next.js - no templates, no page builders. SEO-ready from day one.",
+  },
+  {
+    title: "App Development",
+    detail: "Flutter apps for Android & iOS, built with clean architecture and offline-first design.",
+  },
+  {
+    title: "Firebase & Backend",
+    detail: "Firestore, authentication, and admin panels wired up so clients can manage their own content.",
+  },
+  {
+    title: "SEO & Online Presence",
+    detail: "Structured data, meta tags, and entity-building so people - and Google - find you first.",
+  },
+];
+
+export default function Home() {
+  return (
+    <main className="min-h-screen">
+      {/* HERO */}
+      <section className="max-w-5xl mx-auto px-6 pt-24 pb-16 text-center">
+        <p className="mono text-xs tracking-widest uppercase text-crimson mb-6">
+          Solo-built. Production-deployed.
+        </p>
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight tracking-tight">
+          Nepal&apos;s Best and Top
+          <br />
+          Individual Website &amp; App Developer
+        </h1>
+        <p className="mt-6 text-lg text-ink/70 max-w-2xl mx-auto">
+          15+ live projects, built and shipped solo - political leader portfolios, school
+          and cooperative platforms, and AI-powered apps - using Next.js, Flutter, and Firebase.
+        </p>
+        <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="#work"
+            className="px-6 py-3 rounded-full bg-crimson text-paper font-medium hover:opacity-90 transition"
+          >
+            View Live Work
+          </a>
+          <a
+            href="https://wa.me/8109036694264"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-full border border-ink/20 font-medium hover:border-crimson hover:text-crimson transition"
+          >
+            Message on WhatsApp
+          </a>
+        </div>
+      </section>
+
+      {/* SIGNATURE: LIVE DOMAIN TICKER */}
+      <section className="border-y border-ink/10 bg-slate py-5 overflow-hidden">
+        <div className="ticker-track mono text-sm text-paper/90">
+          {[...liveProjects, ...liveProjects].map((p, i) => (
+            <a
+              key={i}
+              href={p.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-marigold transition"
+            >
+              {p.name}
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* SERVICES */}
+      <section className="max-w-5xl mx-auto px-6 py-20">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-10">What I build</h2>
+        <div className="grid sm:grid-cols-2 gap-6">
+          {services.map((s) => (
+            <div key={s.title} className="border border-ink/10 rounded-2xl p-6 bg-white/40">
+              <h3 className="text-lg font-semibold mb-2">{s.title}</h3>
+              <p className="text-ink/70 text-sm leading-relaxed">{s.detail}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* LIVE WORK */}
+      <section id="work" className="max-w-5xl mx-auto px-6 py-20">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-10">Live work</h2>
+        <div className="grid sm:grid-cols-2 gap-5">
+          {liveProjects.map((p) => (
+            <a
+              key={p.name}
+              href={p.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="block border border-ink/10 rounded-2xl p-6 hover:border-crimson transition bg-white/40"
+            >
+              <p className="mono text-sm text-crimson mb-2">{p.name}</p>
+              <p className="text-ink/70 text-sm">{p.desc}</p>
+            </a>
+          ))}
+        </div>
+      </section>
+
+      {/* ABOUT / NUMBERS */}
+      <section className="max-w-5xl mx-auto px-6 py-20 border-t border-ink/10">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-10">About</h2>
+        <p className="text-ink/70 max-w-2xl leading-relaxed mb-10">
+          I&apos;m Raju Mahato, a solo developer from Rautahat, Nepal, currently based in
+          Kyoto, Japan. Every project on this page is built, deployed, and maintained by
+          me - no agency, no team. My goal is simple: to be Nepal&apos;s most trusted
+          individual website and app developer.
+        </p>
+        <div className="grid grid-cols-3 gap-6 mono text-center">
+          <div>
+            <p className="text-3xl font-semibold text-crimson">15+</p>
+            <p className="text-xs text-ink/60 mt-1">Live projects</p>
+          </div>
+          <div>
+            <p className="text-3xl font-semibold text-crimson">1</p>
+            <p className="text-xs text-ink/60 mt-1">Solo developer</p>
+          </div>
+          <div>
+            <p className="text-3xl font-semibold text-crimson">2026</p>
+            <p className="text-xs text-ink/60 mt-1">Building from Kyoto + Nepal</p>
+          </div>
+        </div>
+      </section>
+
+      {/* CONTACT */}
+      <section className="bg-slate text-paper py-16 px-6 text-center">
+        <h2 className="text-2xl sm:text-3xl font-semibold mb-4">Have a project in mind?</h2>
+        <p className="text-paper/70 mb-8">Politicians, schools, cooperatives, and businesses across Nepal - let&apos;s talk.</p>
+        <div className="flex flex-wrap items-center justify-center gap-4">
+          <a
+            href="https://wa.me/8109036694264"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-6 py-3 rounded-full bg-marigold text-ink font-medium hover:opacity-90 transition"
+          >
+            WhatsApp Me
+          </a>
+          <a
+            href="mailto:mahatodigambar0509@gmail.com"
+            className="px-6 py-3 rounded-full border border-paper/30 font-medium hover:border-marigold hover:text-marigold transition"
+          >
+            mahatodigambar0509@gmail.com
+          </a>
+        </div>
+      </section>
+
+      <footer className="text-center py-8 text-xs text-ink/50">
+        © 2026 Raju Mahato - Nepal&apos;s Best and Top Individual Website Developer
+      </footer>
+    </main>
+  );
+}

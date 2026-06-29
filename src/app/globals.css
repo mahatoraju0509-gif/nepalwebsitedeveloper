@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #faf6ee;
+  --ink: #1b1b18;
+  --crimson: #8b1e3f;
+  --marigold: #c98a2c;
+  --slate: #2f3b45;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-crimson: var(--crimson);
+  --color-marigold: var(--marigold);
+  --color-slate: var(--slate);
+  --font-sans: var(--font-body);
+  --font-serif: var(--font-display);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+.mono {
+  font-family: var(--font-mono), monospace;
+}
+
+/* Live-project ticker (signature element) */
+.ticker-track {
+  display: flex;
+  gap: 2.5rem;
+  white-space: nowrap;
+  animation: tickerScroll 28s linear infinite;
+}
+
+.ticker-track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes tickerScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track {
+    animation: none;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--crimson);
+  outline-offset: 3px;
+}
