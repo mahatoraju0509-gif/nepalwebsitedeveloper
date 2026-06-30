@@ -7,6 +7,10 @@ const liveProjects = [
   { name: "jagdamba-school-five.vercel.app", url: "https://jagdamba-school-five.vercel.app", desc: "School website - Three.js, Firebase admin panel" },
   { name: "sfacl-jetharahiya.vercel.app", url: "https://sfacl-jetharahiya.vercel.app", desc: "Cooperative platform - loan & savings services" },
   { name: "rajumahato.it.com", url: "https://rajumahato.it.com", desc: "Personal developer portfolio" },
+  { name: "raghunath-gupta-portfolio.vercel.app", url: "https://raghunath-gupta-portfolio.vercel.app", desc: "Social Activist and Journalist portfolio - Raghunath Gupta" },
+  { name: "janata-secondary-school.vercel.app", url: "https://janata-secondary-school.vercel.app", desc: "School website - Janata Secondary School, Rautahat" },
+  { name: "samaj-shakti-yuwa-club.vercel.app", url: "https://samaj-shakti-yuwa-club.vercel.app", desc: "Youth club website - Bishnupur-4, Saptari" },
+  { name: "anil-falful-nursery.vercel.app", url: "https://anil-falful-nursery.vercel.app", desc: "Agricultural nursery farm website - Kathariya, Nepal" },
 ];
 
 const services = [
