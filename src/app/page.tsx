@@ -61,8 +61,7 @@ export default function Home() {
           Individual Website &amp; App Developer
         </h1>
         <p className="mt-6 text-lg text-ink/70 max-w-2xl mx-auto">
-          15+ live projects, built and shipped solo - political leader portfolios, school
-          and cooperative platforms, and AI-powered apps - using Next.js, Flutter, and Firebase.
+          22+ live projects, built and shipped solo - political leader portfolios, school and cooperative platforms, news portals, and AI-powered apps - using Next.js, Flutter, and Firebase.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <a
@@ -135,14 +134,11 @@ export default function Home() {
       <section className="max-w-5xl mx-auto px-6 py-20 border-t border-ink/10">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-10">About</h2>
         <p className="text-ink/70 max-w-2xl leading-relaxed mb-10">
-          I&apos;m Raju Mahato, a solo developer from Rautahat, Nepal, currently based in
-          Kyoto, Japan. Every project on this page is built, deployed, and maintained by
-          me - no agency, no team. My goal is simple: to be Nepal&apos;s most trusted
-          individual website and app developer.
+          I&apos;m Raju Mahato, a solo developer from Yamunamai-1, Rautahat, Madhesh Province, Nepal, currently based in Kyoto, Japan. Every project on this page is built, deployed, and maintained by me - no agency, no team. 22+ live projects including political leader portfolios, school websites, news portals, cooperative platforms, and AI-powered apps. My goal is simple: to be Nepal&apos;s most trusted individual website and app developer.
         </p>
         <div className="grid grid-cols-3 gap-6 mono text-center">
           <div>
-            <p className="text-3xl font-semibold text-crimson">15+</p>
+            <p className="text-3xl font-semibold text-crimson">22+</p>
             <p className="text-xs text-ink/60 mt-1">Live projects</p>
           </div>
           <div>
