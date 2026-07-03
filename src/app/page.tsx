@@ -21,6 +21,7 @@ const liveProjects = [
   { name: "rambabu-baitha-maths-teacher-djpt.vercel.app", url: "https://rambabu-baitha-maths-teacher-djpt.vercel.app", desc: "Best Mathematics Teacher Nepal - Rambabu Baitha, M.Ed." },
   { name: "shivjee-mukhiya-official.vercel.app", url: "https://shivjee-mukhiya-official.vercel.app", desc: "Technical Assistant Education - Shivjee Mukhiya, Lamjung" },
   { name: "jagdamba-school-five.vercel.app/developer.html", url: "https://jagdamba-school-five.vercel.app/developer.html", desc: "Developer showcase page - Raju Mahato portfolio" },
+  { name: "binda-lal-sah-website-7v2z.vercel.app", url: "https://binda-lal-sah-website-7v2z.vercel.app", desc: "Best Mathematics Teacher Nepal - Binda Lal Sah, Rautahat" },
 ];
 
 const services = [
