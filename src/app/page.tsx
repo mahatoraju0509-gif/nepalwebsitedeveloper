@@ -73,7 +73,7 @@ export default function Home() {
           Individual Website &amp; App Developer
         </h1>
         <p className="mt-6 text-lg text-ink/70 max-w-2xl mx-auto">
-          23+ live projects, built and shipped solo - political leader portfolios, school and cooperative platforms, news portals, and AI-powered apps - using Next.js, Flutter, and Firebase.
+          45+ live projects, built and shipped solo - political leader portfolios, school and cooperative platforms, news portals, and AI-powered apps - using Next.js, Flutter, and Firebase.
         </p>
         <div className="mt-9 flex flex-wrap items-center justify-center gap-4">
           <a
@@ -150,7 +150,7 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-3 gap-6 mono text-center">
           <div>
-            <p className="text-3xl font-semibold text-crimson">23+</p>
+            <p className="text-3xl font-semibold text-crimson">45+</p>
             <p className="text-xs text-ink/60 mt-1">Live projects</p>
           </div>
           <div>
