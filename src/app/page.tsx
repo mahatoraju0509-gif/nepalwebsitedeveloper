@@ -18,10 +18,21 @@ const liveProjects = [
   { name: "janata-secondary-school.vercel.app", url: "https://janata-secondary-school.vercel.app", desc: "School website - Janata Secondary School, Rautahat" },
   { name: "samaj-shakti-yuwa-club.vercel.app", url: "https://samaj-shakti-yuwa-club.vercel.app", desc: "Youth club website - Bishnupur-4, Saptari" },
   { name: "anil-falful-nursery.vercel.app", url: "https://anil-falful-nursery.vercel.app", desc: "Agricultural nursery farm - Kathariya, Nepal" },
-  { name: "rambabu-baitha-maths-teacher-djpt.vercel.app", url: "https://rambabu-baitha-maths-teacher-djpt.vercel.app", desc: "Best Mathematics Teacher Nepal - Rambabu Baitha, M.Ed." },
+  { name: "rambabu-baitha-maths-teacher-djpt.vercel.app", url: "https://rambabu-baitha-maths-teacher-djpt.vercel.app", desc: "Best Mathematics Teacher - Rambabu Baitha, Bara" },
   { name: "shivjee-mukhiya-official.vercel.app", url: "https://shivjee-mukhiya-official.vercel.app", desc: "Technical Assistant Education - Shivjee Mukhiya, Lamjung" },
+  { name: "binda-lal-sah-website-7v2z.vercel.app", url: "https://binda-lal-sah-website-7v2z.vercel.app", desc: "Best Mathematics Teacher - Binda Lal Sah, Rautahat" },
+  { name: "ravi-kumar-sah-portfolio.vercel.app", url: "https://ravi-kumar-sah-portfolio.vercel.app", desc: "Mathematics Teacher - Ravi Kumar Sah Teli, Bara" },
+  { name: "saroj-kumar-banjara.vercel.app", url: "https://saroj-kumar-banjara.vercel.app", desc: "Mathematics Teacher MPhil - Saroj Kumar Banjara, Bara" },
+  { name: "genendra-poudel.vercel.app", url: "https://genendra-poudel.vercel.app", desc: "Head Teacher English and Sociology - Genendra Poudel, Bardiya" },
+  { name: "lalit-thakuri.vercel.app", url: "https://lalit-thakuri.vercel.app", desc: "English Teacher Secondary Level - Lalit Thakuri, Bhaktapur" },
+  { name: "pankaj-kumar-sah.vercel.app", url: "https://pankaj-kumar-sah.vercel.app", desc: "Public Health Professional - Pankaj Kumar Sah, Mahottary" },
+  { name: "web-nine-beryl-59.vercel.app", url: "https://web-nine-beryl-59.vercel.app", desc: "Nepal developer project" },
+  { name: "ambik-baral-online-class.vercel.app", url: "https://ambik-baral-online-class.vercel.app", desc: "Online class platform - Ambik Baral" },
+  { name: "rajan-baniya-online-class.vercel.app", url: "https://rajan-baniya-online-class.vercel.app", desc: "Online class platform - Rajan Baniya" },
+  { name: "notelibrary-website.vercel.app", url: "https://notelibrary-website.vercel.app", desc: "Note library website - Nepal education" },
+  { name: "dilli-raj-upadhyaya.vercel.app", url: "https://dilli-raj-upadhyaya.vercel.app", desc: "Portfolio - Dilli Raj Upadhyaya" },
+  { name: "mithila-tech-gyan.vercel.app", url: "https://mithila-tech-gyan.vercel.app", desc: "Mithila Tech Gyan - Technology education Nepal" },
   { name: "jagdamba-school-five.vercel.app/developer.html", url: "https://jagdamba-school-five.vercel.app/developer.html", desc: "Developer showcase page - Raju Mahato portfolio" },
-  { name: "binda-lal-sah-website-7v2z.vercel.app", url: "https://binda-lal-sah-website-7v2z.vercel.app", desc: "Best Mathematics Teacher Nepal - Binda Lal Sah, Rautahat" },
 ];
 
 const services = [
