@@ -146,7 +146,7 @@ export default function Home() {
       <section className="max-w-5xl mx-auto px-6 py-20 border-t border-ink/10">
         <h2 className="text-2xl sm:text-3xl font-semibold mb-10">About</h2>
         <p className="text-ink/70 max-w-2xl leading-relaxed mb-10">
-          I&apos;m Raju Mahato, a solo developer from Yamunamai-1, Rautahat, Madhesh Province, Nepal, currently based in Kyoto, Japan. Every project on this page is built, deployed, and maintained by me - no agency, no team. 22+ live projects including political leader portfolios, school websites, news portals, cooperative platforms, and AI-powered apps. My goal is simple: to be Nepal&apos;s most trusted individual website and app developer.
+          I&apos;m Raju Mahato, a solo developer from Yamunamai-1, Rautahat, Madhesh Province, Nepal, currently based in Kyoto, Japan. Every project on this page is built, deployed, and maintained by me - no agency, no team. 45+ live projects including political leader portfolios, school websites, teacher portfolios, news portals, cooperative platforms, Flutter apps, and AI-powered apps. My goal is simple: to be Nepal&apos;s most trusted individual website and app developer.
         </p>
         <div className="grid grid-cols-3 gap-6 mono text-center">
           <div>
